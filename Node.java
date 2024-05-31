@@ -1,16 +1,18 @@
 package com.itsc;
 
 public class Node {
-
-	// Attributes of the class Node.
-	Task task;
+	
+	// Creating attributes for the class Node.
+	int data;
 	Node next;
 	
-	/* Constructor to initialize a Node.
-	* @param task The task to be stored in the Node.
-	*/
-	public Node(Task task) {
-		this.task = task;
-		next = null;
+	/* 
+	 * Creating a constructor to initialize a node with an input data.
+	 * @param data The data to be stored in the node.
+	 */
+	public Node(int data) {
+		this.data = data;
+		next=null;
 	}
+
 }
